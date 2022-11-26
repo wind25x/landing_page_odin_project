@@ -1,0 +1,149 @@
+/* 
+Header logo text 24px #F9FAF8
+Header link text 18px #E5E7EB
+*/
+
+* {
+  padding: 0;
+  margin: 0; 
+  background-color: #1F2937;
+  color: white;
+}
+
+/* nav bar section */
+
+#menu {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 1% 10%;
+}
+
+.logo {
+  flex-shrink: 0;
+  font-size: 32px;
+  color: #F9FAF8;
+}
+
+.links {
+  display: flex;
+  gap: 22px;
+}
+.links a {
+  font-size: 22px;
+  color: #E5E7EB;
+  text-decoration: none;
+  font-weight:100;
+}
+
+/* header section */ 
+
+.header {
+  margin: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left-side{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.left-side h1 {
+  font-size: 48px;
+  font-weight:bolder;
+  color: #F9FAF8;
+}
+
+.left-side h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #E5E7EB;
+}
+
+.left-side button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: transparent;
+    width: 30%;
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+.header-img {
+  width: 600px;
+}
+
+/* information section */ 
+.info-section * {
+  background-color: #ffffff;
+  color: #1F2937;
+}
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom:4%;
+  background-color: #ffffff;
+}
+
+.info-section h2 {
+  font-size: 42px;
+  font-weight: 800;
+  padding-bottom: 2%;
+}
+
+.info-section p {
+  text-align: center;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.info-cards {
+  display: flex;
+  gap: 88px;
+}
+
+.info-cards div {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-box {
+  width:150px;
+  height:150px;
+  border:3px solid #3B82F6;
+  border-radius: 28px;
+}
+
+/* quote section */ 
+
+.quote {
+  background-color: #E5E7EB;
+  color: #1f2937;
+  height: 15vh;
+  padding: 5% 8%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+}
+
+.quoted {
+  background-color: #E5E7EB;
+  color: #1f2937;
+  text-align:end;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+/* Call to action section */
+
