@@ -187,3 +187,15 @@ Header link text 18px #E5E7EB
   height: 40px;
   font-size: 20px;
 }
+
+
+/* Footer section */
+
+footer {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 300;
+}
