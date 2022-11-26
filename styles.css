@@ -147,3 +147,43 @@ Header link text 18px #E5E7EB
 
 /* Call to action section */
 
+.cta-section {
+  height: 25vh;
+  background-color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  border-radius: 15px;
+  background-color: #3882f6;
+  width: 50%;
+  height: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.left_cta, .left_cta h3, .left_cta p {
+  background-color: #3882f6;
+}
+
+.cta h3 {
+  font-size: 36px;
+}
+
+.cta p {
+  font-size: 24px;
+}
+
+.btn_cta {
+  border-radius: 8px;
+  border-width: 2px;
+  background-color: #3882f6;
+  border-color: #F9FAF8;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
